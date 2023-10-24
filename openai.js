@@ -4,7 +4,7 @@ require('dotenv').config();
 const openAIApiKey = process.env.OPENAI_API_KEY;
 const bodyParser = require('body-parser');
 const app = express();
-const port = 3000;
+const port = 3000 ;
 
 app.use(bodyParser.json());
 
